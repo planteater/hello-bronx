@@ -35,7 +35,6 @@ export class SimpleLoginForm extends Component {
 		this.subscriptions.dispose(foo);
 	}
 
-	// This is a pushed commit
 	componentWillDismount() {
 		this.subscriptions.dispose(foo);
 	}
