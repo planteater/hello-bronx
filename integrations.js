@@ -46,6 +46,11 @@ export class SimpleLoginForm extends Component {
 		this.subscriptions = new CompositeDisposable();
 	}
 
+	export class RegistrationForm extends Component {
+		static contextTypes = {
+			 repositories: PropTypes.array
+		};
+
 	componentDidMount() {
 		const { repositories } = this.context;
 		const repository = repositories[0];
