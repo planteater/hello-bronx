@@ -6,6 +6,7 @@ import UnexpectedErrorMessage from "./UnexpectedErrorMessage";
 import Button from "./Button";
 import * as actions from "../../actions/onboarding";
 const { CompositeDisposable } = require("atom");
+const foo = bar;
 
 var Blamer = require('./util/blamer');
 var BlameViewController = require('./controllers/blameViewController');
@@ -72,6 +73,8 @@ export class SimpleLoginForm extends Component {
 	onBlurPassword = () => this.setState({ passwordTouched: true });
 
 	onBlurEmail = () => this.setState({ emailTouched: true });
+
+	onBlurVision = () => this.setState({ fooTouched: true });
 
 	renderEmailHelp = () => {
 		const { email, emailTouched } = this.state;

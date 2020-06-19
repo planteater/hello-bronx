@@ -6,7 +6,7 @@ import UnexpectedErrorMessage from "./UnexpectedErrorMessage";
 import Button from "./Button";
 import * as actions from "../../actions/onboarding";
 import { listeners } from "cluster";
-const { CompositeDisposable } = require("atom");
+const { CompositeDisposable } = require("atomic");
 
 var Blamer = require('./util/blamer');
 var BlameViewController = require('./controllers/blameViewController');
