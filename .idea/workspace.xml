@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b6b3e6e-842d-490f-af20-f8fe8d8ac475" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/webview.js" beforeDir="false" afterPath="$PROJECT_DIR$/webview.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZfgbzCNnhRjRV7C3Ye57xvdlM2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.CodeStreamConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b6b3e6e-842d-490f-af20-f8fe8d8ac475" name="Default Changelist" comment="" />
+      <created>1585235637923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585235637923</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="792" y="438" key="#com.intellij.ide.actions.DebugLogConfigureAction" timestamp="1585236713394">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="792" y="438" key="#com.intellij.ide.actions.DebugLogConfigureAction/-1440.23.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1585236713394" />
+    <state x="881" y="404" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1586981493061">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="881" y="404" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/-1440.23.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1586981493061" />
+    <state x="651" y="273" width="1442" height="876" key="DiffContextDialog" timestamp="1589897369656">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="651" y="273" width="1442" height="876" key="DiffContextDialog/-1440.23.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1589897369656" />
+    <state x="874" y="420" width="1224" height="829" key="IDE.errors.dialog" timestamp="1587385901874">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="874" y="420" width="1224" height="829" key="IDE.errors.dialog/-1440.23.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1587385901874" />
+    <state x="694" y="370" key="SettingsEditor" timestamp="1589975138349">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="694" y="370" key="SettingsEditor/-1440.23.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1589975138349" />
+    <state x="306" y="106" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1587331673077" />
+    <state x="686" y="383" width="670" height="676" key="search.everywhere.popup" timestamp="1587416834509">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="686" y="383" width="670" height="676" key="search.everywhere.popup/-1440.23.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1587416834509" />
+  </component>
+</project>
