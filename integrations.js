@@ -14,6 +14,7 @@ var errorController = require('./controllers/errorController');
 var Directory = require('pathwatcher').Directory
 var path = require('path');
 
+// Local commit for this change
 const isPasswordInvalid = password => password.length === 0;
 const isEmailInvalid = email => {
 	const emailRegex = new RegExp(
