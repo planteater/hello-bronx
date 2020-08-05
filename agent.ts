@@ -35,6 +35,7 @@ type NotificationParamsOf<NT> = NT extends NotificationType<infer N, any> ? N : 
 type RequestParamsOf<RT> = RT extends RequestType<infer R, any, any, any> ? R : never;
 type RequestResponseOf<RT> = RT extends RequestType<any, infer R, any, any> ? R : never;
 
+// push a fix
 export class CodeStreamAgent implements Disposable {
 	private _onReady = new Emitter<void>();
 	get onReady(): Event<void> {
