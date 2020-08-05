@@ -72,6 +72,11 @@ export class CodeStreamAgent implements Disposable {
 		);
 	}
 
+	private _recordRequests = false;
+	get recordRequests(): boolean {
+		return this._recordRequests;
+	}
+	
 	dispose() {
 		this._disposable && this._disposable.dispose();
 		this.documents.dispose();
