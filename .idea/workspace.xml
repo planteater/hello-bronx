@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6187a367-ed87-487a-aa23-5252eaec60c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cache.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container.ts" beforeDir="false" afterPath="$PROJECT_DIR$/container.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentEventHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/documentEventHandler.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +27,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -37,21 +45,32 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596111566744">
+    <state x="725" y="315" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599056725999">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="725" y="315" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1440.94.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1599056725999" />
+    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1596111566744" />
+    <state x="200" y="60" width="1240" height="677" key="DiffContextDialog" timestamp="1597942385847">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1596111566744" />
+    <state x="200" y="60" width="1240" height="677" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1597942385847" />
+    <state x="812" y="435" key="IDE.errors.dialog" timestamp="1599057453269">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="812" y="435" key="IDE.errors.dialog/-1440.94.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1599057453269" />
     <state x="551" y="189" key="RollbackChangesDialog" timestamp="1596465124232">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="551" y="189" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1596465124232" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1596573376341">
+    <state x="393" y="147" key="SettingsEditor" timestamp="1601039547127">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="393" y="147" key="SettingsEditor/-1440.94.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1601039547127" />
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1598617587476" />
+    <state x="1062" y="83" key="SettingsEditor/2560.23.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1597416231212" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1597937074809">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1596573376341" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1596573326098">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1596573326098" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597937074809" />
   </component>
 </project>

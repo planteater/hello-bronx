@@ -5,6 +5,7 @@ import { xfs } from "./xfs";
 
 class Cache {
 	private readonly cachePath: string;
+	private readonly cacheState: string;
 	private readonly data: {
 		[name: string]: {};
 	};
