@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6187a367-ed87-487a-aa23-5252eaec60c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hello-bronx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hello-bronx.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cache.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container.ts" beforeDir="false" afterPath="$PROJECT_DIR$/container.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentEventHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/documentEventHandler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/agent.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +18,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../hello-ny" />
   </component>
   <component name="ProjectId" id="1fPEM0NSZGctrmjn0WEFBpNHEGR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,7 +51,6 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="725" y="315" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1440.94.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1599056725999" />
-    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1596111566744" />
     <state x="200" y="60" width="1240" height="677" key="DiffContextDialog" timestamp="1597942385847">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -58,19 +59,16 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="812" y="435" key="IDE.errors.dialog/-1440.94.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1599057453269" />
-    <state x="551" y="189" key="RollbackChangesDialog" timestamp="1596465124232">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="551" y="189" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1596465124232" />
-    <state x="393" y="147" key="SettingsEditor" timestamp="1601039547127">
+    <state x="393" y="147" key="SettingsEditor" timestamp="1605300632219">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="393" y="147" key="SettingsEditor/-1440.94.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1601039547127" />
+    <state x="393" y="147" key="SettingsEditor/-1440.94.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1605300632219" />
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1598617587476" />
     <state x="1062" y="83" key="SettingsEditor/2560.23.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1597416231212" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1597937074809">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="684" y="330" width="1192" height="1093" key="search.everywhere.popup" timestamp="1605543732132">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
+    <state x="684" y="330" width="1192" height="1093" key="search.everywhere.popup/-1440.94.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1605543732132" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597937074809" />
   </component>
 </project>
