@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="CodeStream">
-    <option name="teamId" value="5eff892b30f0f81ed047f6da" />
-    <option name="webViewContext" value="{&quot;chatProviderAccess&quot;:&quot;strict&quot;,&quot;newPostEntryPoint&quot;:&quot;Status&quot;,&quot;currentTeamId&quot;:&quot;5eff892b30f0f81ed047f6da&quot;,&quot;currentStreamId&quot;:&quot;&quot;,&quot;isRepositioning&quot;:false,&quot;panelStack&quot;:[&quot;status&quot;,&quot;codemarks-for-file&quot;,&quot;status&quot;,&quot;codemarks-for-file&quot;,&quot;activity&quot;,&quot;status&quot;,&quot;codemarks-for-file&quot;,&quot;filter-search&quot;,&quot;codemarks-for-file&quot;],&quot;hasFocus&quot;:true,&quot;channelFilter&quot;:&quot;all&quot;,&quot;channelsMuteAll&quot;:false,&quot;codemarkFileFilter&quot;:&quot;all&quot;,&quot;codemarkTypeFilter&quot;:&quot;all&quot;,&quot;codemarkTagFilter&quot;:&quot;all&quot;,&quot;codemarkBranchFilter&quot;:&quot;all&quot;,&quot;codemarkAuthorFilter&quot;:&quot;all&quot;,&quot;codemarksFileViewStyle&quot;:&quot;inline&quot;,&quot;codemarksShowArchived&quot;:false,&quot;codemarksShowResolved&quot;:false,&quot;showFeedbackSmiley&quot;:true,&quot;route&quot;:{&quot;name&quot;:&quot;login&quot;,&quot;params&quot;:{}},&quot;spatialViewShowPRComments&quot;:false}" />
-  </component>
-</project>
