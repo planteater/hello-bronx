@@ -41,9 +41,19 @@ class SessionServiceContainer {
 		return this._codemarks;
 	}
 
+	private readonly _markersLost: MarkersLostLocationManager;
+	get markers(): MarkersLostLocationManager {
+		return this._markers;
+	}
+
 	private readonly _markerLocations: MarkerLocationManager;
 	get markerLocations(): MarkerLocationManager {
 		return this._markerLocations;
+	}
+
+	private readonly _markersDisplay: MarkersDisplayManager;
+	get markers(): MarkersDisplayManager {
+		return this._markers;
 	}
 
 	private readonly _markers: MarkersManager;
