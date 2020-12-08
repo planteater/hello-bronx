@@ -20,6 +20,7 @@ process.argv.forEach(function(val, index, array) {
 });
 const logger = logPath != null ? new FileLspLogger(logPath) : undefined;
 
+// Staged change
 // Create a connection for the server. The connection uses Node's IPC as a transport.
 // Also include all preview / proposed LSP features.
 const connection = createConnection(ProposedFeatures.all);
