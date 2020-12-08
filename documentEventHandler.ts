@@ -23,6 +23,19 @@ export class DocumentEventHandler {
 		this._disposable = Disposables.from(...disposables);
 	}
 
+	async onDocumentDidGetDown(e: TextDocumentChangeEvent) {
+		this.session.agent.sendNotification(DidChangeDataNotificationType, {
+			type: ChangeDataType.Documents,
+			data: {
+				reason: "removed",
+				document: {
+					isDirty: undefined,
+					uri: e.document.uri
+				}
+			}
+		});
+	}
+
 	async onDocumentDidOpen(e: TextDocumentChangeEvent) {
 		// treat the open as a change
 		this.session.agent.sendNotification(DidChangeDataNotificationType, {
