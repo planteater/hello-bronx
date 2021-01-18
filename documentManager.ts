@@ -21,6 +21,11 @@ export class DocumentManager implements Disposable {
 		return this._onDidChangeContent.event;
 	}
 
+	private _onDidDisco = new Emitter<TextDocumentChangeEvent>();
+	get onDidSave(): Event<TextDocumentChangeEvent> {
+		return this._onDidSave.event;
+	}
+
 	private _onDidSave = new Emitter<TextDocumentChangeEvent>();
 	get onDidSave(): Event<TextDocumentChangeEvent> {
 		return this._onDidSave.event;
