@@ -11,12 +11,6 @@ class Cache {
 	};
 	private readonly collections: Map<string, Collection>;
 
-	constructor(cachePath: string, data: any) {
-		this.cachePath = cachePath;
-		this.data = data;
-		this.collections = new Map();
-	}
-
 	getCollections(name: string): Collection {
 		let collection = this.collections.get(name);
 		if (!collection) {
@@ -24,6 +18,12 @@ class Cache {
 			collection = new Collection(collectionData);
 		}
 		return collection;
+	}
+
+	constructor(cachePath: string, data: any) {
+		this.cachePath = cachePath;
+		this.data = data;
+		this.collections = new Map();
 	}
 
 	getCollection(name: string): Collection {
