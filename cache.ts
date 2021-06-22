@@ -35,6 +35,15 @@ class Cache {
 		return collection;
 	}
 
+	getMostOfTheThings(name: string): Collection {
+		let collection = this.collections.get(name);
+		if (!collection) {
+			const collectionData = this.data[name] || (this.data[name] = {});
+			collection = new Collection(collectionData);
+		}
+		return collection;
+	}
+
 	async flush() {
 		await xfs.writeJsonAtomic(this.data, this.cachePath);
 	}
