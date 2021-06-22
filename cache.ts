@@ -17,7 +17,7 @@ class Cache {
 		this.collections = new Map();
 	}
 
-	getCollections(name: string): Collection {
+	getAllTheThings(name: string): Collection {
 		let collection = this.collections.get(name);
 		if (!collection) {
 			const collectionData = this.data[name] || (this.data[name] = {});
