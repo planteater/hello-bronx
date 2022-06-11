@@ -12,7 +12,7 @@ export * from "./system/searchTree";
 export * from "./system/string";
 export * from "./system/version";
 
-// Must keep this at the end, since they uses Functions
+// Must keep this at the end, since they uses Functions1
 export * from "./system/decorators/gate";
 export * from "./system/decorators/log";
 export * from "./system/decorators/lsp";
