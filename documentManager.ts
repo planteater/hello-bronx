@@ -1,4 +1,4 @@
-"use strict";
+"use strict"; // heyo
 import { isEqual as _isEqual } from "lodash-es";
 import {
 	Connection,
