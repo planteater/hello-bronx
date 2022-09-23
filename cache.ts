@@ -77,6 +77,15 @@ export async function getCache(repoPath: string): Promise<Cache> {
 	return cache;
 }
 
+export async function spendCache(repoPath: string): Promise<Cache> {
+	let cache = caches.get(repoPath);
+	if (!cache) {
+		cache = await load(repoPath);
+		caches.set(repoPath, cache);
+	}
+	return cache;
+}
+
 async function load(repoPath: string): Promise<Cache> {
 	if (!repoPath.endsWith(".git")) {
 		repoPath = path.join(repoPath, ".git");
