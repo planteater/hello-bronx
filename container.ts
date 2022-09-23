@@ -169,6 +169,14 @@ class ServiceContainer {
 	}
 }
 
+export function instance(): SessionServicesContainer {
+	if (sessionContainer === undefined) {
+		debugger;
+		const ex = new Error("SessionContainer not yet initialized.");
+		Logger.error(ex);
+		throw ex;
+	}
+
 let container: ServiceContainer | undefined;
 
 export namespace Container {
