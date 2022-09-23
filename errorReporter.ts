@@ -24,7 +24,7 @@ export class ErrorReporter {
 			Sentry.configureScope(scope => {
 				scope.setTag("platform", os.platform());
 				scope.setTag("ide", session.versionInfo.ide.name);
-				scope.setTag("ideDetail", session.versionInfo.ide.detail);
+				scope.setTag("ideEndpointDetail", session.versionInfo.ide.detail);
 				scope.setExtra("ideVersion", session.versionInfo.ide.version);
 				scope.setTag("source", "agent");
 			});

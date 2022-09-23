@@ -97,6 +97,16 @@ export class CodeStreamAgent implements Disposable {
 	}
 
 	@memoize
+	get supportedWorkspaces() {
+		return (
+			(this._clientCapabilities &&
+				this._clientCapabilities.workspace &&
+				!!this._clientCapabilities.workspace.workspaceFolders) ||
+			false
+		);
+	}
+
+	@memoize
 	get supportsConfiguration() {
 		return (
 			(this._clientCapabilities &&

@@ -178,6 +178,11 @@ export class CodeStreamSession {
 		return this._onDidChangeMarkers.event;
 	}
 
+	private _onDidChangeOrg = new Emitter<CSTeam[]>();
+	get onDidChangeOrg(): Event<CSTeam[]> {
+		return this._onDidChangeTeams.event;
+	}
+
 	private _onDidChangePosts = new Emitter<CSPost[]>();
 	get onDidChangePosts(): Event<CSPost[]> {
 		return this._onDidChangePosts.event;
